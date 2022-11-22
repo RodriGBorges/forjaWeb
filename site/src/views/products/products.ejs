@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head')  %>
+    <title>Todos nuestros productos</title>
+</head>
+<body>
+    <%- include('../partials/header')  %>
+    <main class="todos">
+        <h1>Todos nuestros productos</h2>
+        <section class="todos">
+            
+            <div class="todos_contenedor">
+                <% productos.forEach(producto=>{%>
+               
+                <% for (let i = 0; i < imagenes.length ; i++){ %> 
+                <% if (producto.id == imagenes[i].productoId) { %>
+                    
+                    <article class="producto_des">
+
+                    <div class="image_container">
+                        <a href="/product/<%= producto.id %>"> <img src="/img/productos/<%= imagenes[i].nombre %>" alt="<%= producto.nombre %> "></a>
+                    </div>
+
+                    <div class="detail_container">
+                        <i class="fas fa-truck" id="envio"></i>
+                        <p class="precio">$ <%= producto.precio %> </p>
+                        <h4 class="titulo"><%= producto.nombre %> </h4>
+                        <p class="descripcion"><%= producto.descripcion %> </p>
+                    </div>
+
+                    </article>
+                <% break } %>
+                <% } %> 
+                
+                <% }) %> 
+            </div>
+        </section>
+
+
+    </main>
+    <%- include('../partials/footer')  %>
+    
+</body>
+<script src="../../../js/general.js"></script>
+</html>

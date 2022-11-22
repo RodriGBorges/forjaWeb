@@ -1,0 +1,359 @@
+body.editar main.edit section.product_container{
+    text-align: center;
+}
+
+/* Titulo */
+body.editar main.edit section.product_container h1{
+    color: white;
+    margin: 10px;
+}
+/* //////////contenedor segundario///////// */
+body.editar main.edit section.product_container form.todo_container{
+    color: #000000;
+    background-color:var(--white);
+    width: 80%;
+    max-width: 400px;
+    margin: 40px auto;
+    /* text-align: center; */
+    border: solid 1px var(--lightBlue);
+    border-radius: 5px;
+
+    animation: respiracion 2s linear alternate infinite;
+    animation-delay: 2s;
+    padding: 0 10px;
+}
+
+body.editar main.edit section.product_container form.todo_container img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+/* //////////////estilo a todas las "P" ///////////// */
+body.editar main.edit section.product_container form.todo_container p{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+ 
+body.editar main.edit section.product_container form section.visual_container{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* ////////////titulo de producto//////////////////// */
+
+body.editar main.edit section.product_container form.todo_container section.visual_container h2{
+    margin: 10px;
+}
+
+/* ///estilo para Enviar//// */
+body.editar main.edit section.product_container form section.visual_container div.descuento_envio_container div.envio_container{
+    margin-right: 10px;
+}
+
+/* ///estilo para selector % //// */
+body.editar main.edit section.product_container form section.visual_container div.descuento_envio_container div.descuento_container select{
+    margin-left: 10px;
+}
+
+
+/* ///////Estilo a selector de enviar y de Descuento y % ///////*/
+body.editar main.edit section.product_container form section.visual_container div.descuento_envio_container {
+    margin: 15px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+body.editar main.edit section.product_container form section.info_container{
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* ///Estilos a tallas//// */
+
+body.editar main.edit section.product_container form section.info_container div.tallaLetra{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+body.editar main.edit section.product_container form section.info_container div.tallaLetra input.nl {
+    margin-right: 10px;
+}
+
+body.editar main.edit section.product_container form section.info_container div.tallaNumero{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+body.editar main.edit section.product_container form section.info_container div.tallaLetra input.m, input.nl{
+    margin-right: 10px;
+}
+ /* Selectores  */
+body.editar main.edit section.product_container form section.info_container div.selec{
+    margin: 10px 0;
+}
+
+body.editar main.edit section.product_container form section.visual_container div.descuento_envio_container div.descuento_container select {
+    width: 100px;
+}
+
+body.editar main.edit section.product_container form section.visual_container div.descuento_envio_container {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* //////Estilo de Categoria////// */
+body.editar main.edit section.product_container form section.info_container div.info_categoria_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+/* //////////Descripcion de producto//////// */
+body.editar main.edit section.product_container form section.visual_container div.selec textarea{
+    
+    height: 126px;
+}
+ 
+
+
+/* ////////// estolo a los bordes de input y textArea /////////// */
+body.editar main.edit form  select{
+    border-radius: 5px;
+    border: var(--lightBlue) solid 1px;
+    padding: 5px;
+    cursor: pointer;
+    outline-color: transparent;
+}
+
+main.edit form div.selec  {
+    position: relative;
+}
+
+
+/* ////Estilo a los botones de edit y borrar//// */
+body.editar main.edit section.product_container form section.button_container{
+    text-align: center;
+    margin: 10px 0px 40px;
+}
+/*//////////// Tamaño de botonos/////////// */
+body.editar main.edit section.product_container form section.button_container button.boton{
+    padding: 8px 15px;
+    background-color: #2ad2d2;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* //////////Boton de Eliminar Producto/////////// */
+body.editar main.edit section.delete_container form{
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    top: -74px;
+}
+/* //////////Estilo de boton Eliminar Producto////////// */
+body.editar main.edit section.delete_container form button{
+    padding: 6px 15px;
+    background-color: #db3e49;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input#inputColores {
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color0 {
+    box-shadow: 0px 0px 2px 5px red
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color1 {
+    box-shadow: 0px 0px 2px 5px white
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color2 {
+    box-shadow: 0px 0px 2px 5px darkmagenta
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color3 {
+    box-shadow: 0px 0px 2px 5px hotpink
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color4 {
+    box-shadow: 0px 0px 2px 5px blue
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color5 {
+    box-shadow: 0px 0px 2px 5px yellow
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color6 {
+    box-shadow: 0px 0px 2px 5px black
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color7 {
+    box-shadow: 0px 0px 2px 5px lawngreen
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color8 {
+    box-shadow: 0px 0px 2px 5px darkgreen
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color9 {
+    box-shadow: 0px 0px 2px 5px deepskyblue
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color10 {
+    box-shadow: 0px 0px 2px 5px orange
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color11 {
+    box-shadow: 0px 0px 2px 5px gray
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color12 {
+    box-shadow: 0px 0px 2px 5px magenta
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color13 {
+    box-shadow: 0px 0px 2px 5px darkred
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color14 {
+    box-shadow: 0px 0px 2px 5px saddlebrown
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color15 {
+    box-shadow: 0px 0px 2px 5px gold
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color16 {
+    box-shadow: 0px 0px 2px 5px moccasin
+}
+.editar main.edit section.product_container form.todo_container section.info_container div.selec input.color17 {
+    box-shadow: 0px 0px 2px 5px slategrey
+}
+
+body.editar main.edit section.product_container form.todo_container div.inputs {
+    margin: 15px;
+}
+
+body.editar main.edit section.product_container form.todo_container div.inputs input#imagenDeProducto {
+    display: none;
+}
+
+body.editar main.edit section.product_container form.todo_container div.inputs label {
+    background-color: var(--lightBlue);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*////////////////////////////// Movil-M///////////////////////////// */
+@media(min-width:425px){
+
+    body.editar main.edit section.product_container form section.info_container div.info_categoria_container{
+        flex-direction: row;
+        text-align: end;
+    }
+}
+
+
+
+/*////////////////////////////// Tablet///////////////////////////// */
+
+@media(min-width:768px){
+
+    body.editar main.edit section.product_container form.todo_container{
+        width: 80%;
+        max-width: 440px;
+    }
+
+    body.editar main.edit section.product_container form section.visual_container div.descuento_envio_container div.envio_container{
+        margin-right: 10px;
+    }
+    body.editar main.edit section.product_container form section.visual_container div.descuento_envio_container div.descuento_container select{
+        margin-left: 10px;
+    }
+
+
+/* ///////////Tallas////////////// */
+    body.editar main.edit section.product_container form section.info_container div.tallaLetra {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    /* //////////Descripcion de producto//////// */
+    body.editar main.edit section.product_container form section.visual_container div.selec textarea{
+        height: 120px;
+    }
+
+
+    /* //////Estilo de categoria///// */
+    body.editar main.edit section.product_container form section.info_container div.info_categoria_container{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: space-around;
+    }
+    body.editar main.edit section.product_container form section.info_container div.info_categoria_container div.Categoria1{
+        text-align: end;
+
+    }
+    body.editar main.edit section.product_container form section.info_container div.info_categoria_container div.Categoria2{
+        text-align: end;
+    }
+}
+
+/* ///////colore de validador//////// */
+body.editar main.edit  form  i.error{
+    position: absolute;
+    bottom: 12px;
+    right: 40px;
+    color: red;
+    display: none;
+
+}
+
+main.edit  form i.check{
+    position: absolute;
+    bottom: 12px;
+    right: 40px;
+    color: green;
+    display: none;
+}
+
+main.edit  form small.errors{
+    display: block;
+    color: crimson;
+}
+
+main.edit  form .validar{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: var(--lightBlue) solid 1px;
+    padding: 5px;
+    cursor: pointer;
+    outline-color:transparent;
+}
+
+/* ///////Vista previa de imágenes//////// */
+
+main.edit div#previews,main.edit div.productoImg-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+main.edit div.inputs img{
+    width: 100%;
+}

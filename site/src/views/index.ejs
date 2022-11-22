@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <%- include('./partials/head')  %> 
+    <title>Forja Web</title>
+</head>
+
+<body>
+    <%- include('./partials/header')  %>
+
+    <main class="home">
+        <section class="carrusel">
+            <div class="fondo">
+                <div class="slider" id="slider">
+                    <article class="productosCarrusel" id="articles">
+                        <img src="/img/carrusel/everlast.jpg" alt="Marca Everlast">
+                    </article>
+                    <article class="productosCarrusel" id="articles">
+                        <img src="/img/carrusel/bannerCarrusel.png" alt="Banner Forja">
+                    </article>
+                    <article class="productosCarrusel" id="articles">
+                        <img src="/img/carrusel/fujimae.jpg" alt="Marca Fujimae">
+                    </article>
+                    <!-- <article class="productosCarrusel" id="articles">
+                        <img src="/img/carrusel/everlast.jpg" alt="Marca Everlast">
+                    </article>
+                    <article class="productosCarrusel" id="articles">
+                        <img src="/img/carrusel/fujimae.jpg" alt="Marca Fujimae">
+                    </article> -->
+                </div>
+            </div>
+            <button class="rightbttn botonesCarrusel" id="bttnRight">&#62</button>
+            <button class="leftbttn botonesCarrusel" id="bttnLeft">&#60</button>
+        </section>
+
+        <section class="populares">
+            <h2>Categorías más populares</h2>
+            <div class="populares_categorias">
+                <article class="categorias">
+                    <a href="#"><img src="/img/populares/entrenamiento.jpg"></a>
+                    <h4>Entrenamiento</h4>
+                </article>
+                <article class="categorias">
+                    <a href="#"><img src="/img/populares/taekwondo.jpg"></a>
+                    <a href="#"><h4>Taekwondo</h4></a>
+                </article>
+                <article class="categorias">
+                    <a href="#"><img src="/img/populares/kickboxing.jpg"></a>
+                    <a href="#"><h4>Kickboxing</h4></a>
+                </article>
+                <article class="categorias">
+                    <a href="#"><img src="/img/populares/boxeo.jpg"></a>
+                    <a href="#"><h4>Boxeo</h4></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="destacados">
+            <h2>Productos destacados</h2>
+            <div class="destacados_contenedor">
+                <% productosDestacados.forEach(producto=>{%> 
+                    <article class="producto_des">
+                    <div class="image_container">
+                        <a href="/product/<%= producto.id %>"><img src="/img/productos/<%= producto.imagen[0].nombre %>" alt="<%= producto.nombre %> "></a>
+                    </div>
+                    <div class="detail_container">
+                        <i class="fas fa-truck" id="envio"></i>
+                        <p class="precio">$ <%= producto.precio %> </p>
+                        <h4 class="titulo"><%= producto.nombre %> </h4>
+                        <p class="descripcion"><%= producto.descripcion %> </p>
+                    </div>
+                </article>
+                    
+
+                <% }) %> 
+            </div>
+        </section>
+
+        <section class="ofertas">
+            <h2>Ofertas</h2>
+            <div class="ofertas_contenedor">
+                <% productosEnOferta.forEach(producto => { %>
+                <article class="producto_ofer">
+                    <div class="image_container">
+                        <a href="/product/<%= producto.id %>"><img src="/img/productos/<%= producto.imagen[0].nombre %>"></a>
+                    </div>
+                    <div class="detail_container">
+                        <p class="precio">$ <%= producto.precio %> </p>
+                        <p class="descuento"><%= producto.descuento %> %</p>
+                        <p class="precio_des">$ <%= parseInt(producto.precio) - parseInt(producto.precio)*(parseInt(producto.descuento)/100)  %></p>
+                        <h4 class="titulo"><%= producto.nombre %></h4>
+                        <p class="descripcion"><%= producto.descripcion %></p>
+                    </div>
+                </article>
+                <% }) %> 
+            </div>
+        </section>
+
+        <p class="todosLink"><a href="/products">Todos nuestros productos</a></p>
+
+        <div class="go-top">
+            <div class="top" id="goTop" onclick="topFunction()">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <a href="<!-- link whatsapp -->" class="whatsapp" target="blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
+        </div>
+    </main>
+
+    <%- include('./partials/footer')  %> 
+    
+</body>
+<script src="../../js/general.js"></script>
+<script src="../../js/home.js"></script>
+</html>

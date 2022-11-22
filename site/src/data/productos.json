@@ -1,0 +1,917 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bolsa Kwon 1.20m",
+    "descripcion": "Bolsa de cuero sintético. Incluye relleno, cadenas de acero inoxidable y una barra giratoria cromada. Solo en disponible en color negro",
+    "precio": 17000,
+    "descuento": 30,
+    "talle": [],
+    "color": [],
+    "marca": "Kwon",
+    "imagen": [
+      "1-bolsa120m-1.jpeg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "TaeKwon-Do",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 2,
+    "nombre": "Bolsa Kwon de 1.50m",
+    "descripcion": "Bolsa de cuero sintético. Incluye relleno, cadenas de acero inoxidable y una barra giratoria cromada. Solo en disponible en color negro. Importada.",
+    "precio": 19000,
+    "descuento": 20,
+    "talle": [],
+    "color": [],
+    "marca": "Kwon",
+    "imagen": [
+      "2-bolsa150m-1.jpeg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "TaeKwon-Do",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 3,
+    "nombre": "Bolsa Kwon de 1.80m ",
+    "descripcion": "Bolsa de cuero sintético. Incluye relleno, cadenaa de acero inoxidable y una barra giratoria cromada. Solo en disponible en color negro.Importada.",
+    "precio": 21000,
+    "descuento": 15,
+    "talle": [],
+    "color": [],
+    "marca": "Kwon",
+    "imagen": [
+      "3-bolsa180m-1.jpeg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "TaeKwon-Do",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 4,
+    "nombre": "Cadena para bolsa",
+    "descripcion": "Elaborada con cadena de metal soldada de 4 mm de espesor en 4 tramos de 33 cm. Sujetas con una argolla de metal soldada y tres eslabones abiertos que permiten enganchar la bolsa de entrenamiento.",
+    "precio": 2100,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Forja",
+    "imagen": [
+      "4-cadena-1.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "TaeKwon-Do",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 5,
+    "nombre": "Cielo y tierra Everlast",
+    "descripcion": "Bolsa cielo y tierra. Cuero sintético de primera calidad ofrece durabilidad y funcionalidad. Cuerdas elásticas y placas de techo/suelo incluidos.",
+    "precio": 8000,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Everlast",
+    "imagen": [
+      "5-cieloTierra-1.jpg",
+      "5-cieloTierra-2.jpg",
+      "5-cieloTierra-3.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 6,
+    "nombre": "Soporte para bolsa",
+    "descripcion": "Soporte de pared construido en caño rectangular de gran espesor para mayor rigidez y ángulo de hierro macizo. Incluye tarugos y tirafondos para su instalación. Medidas:90x60",
+    "precio": 3200,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Forja",
+    "imagen": [
+      "6-soporteBolsa-1.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 7,
+    "nombre": "Guantes de Boxeo Everlast 12 oz",
+    "descripcion": "Guantes De Boxeo Everlast Pro Style Training. Thumblock: Mantiene el pulgar en la posición correcta y lo protege de lesiones.Doble costura: Asegura la durabilidad. Tira de ajuste y lazo en la muñeca: Proporciona un ajuste seguro y permite ponerlos y quitarlos rápidamente. Permite el flujo de aire para refrescar las manos. Cordón de agarre en el interior para mayor capacidad de agarre y protección. Tres capas de espuma de alto impacto para una mejor protección",
+    "precio": 7000,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Everlast",
+    "imagen": [
+      "7-guantesBox-1.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 8,
+    "nombre": "Guantes de Boxeo Everlast 14 oz",
+    "descripcion": "Guantes De Boxeo Everlast Protex2. Protex2: Panel de Doble Collar para Protección Superior de la Muñeca. Cuero sintetico de primera calidad para una sensación súper suave y de larga duración. Paneles de ventilación de malla EVERCOOL™. Tecnología de espuma de celda cerrada proporciona una protección óptima. Revestimiento que absorbe la humedad EverDri ™. Funda con cierre con recomendaciones incluidas",
+    "precio": 9000,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Everlast",
+    "imagen": [
+      "8-guantesBox-1.jpg",
+      "8-guantesBox-2.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 9,
+    "nombre": "Guantes de Boxeo Everlast 16 oz",
+    "descripcion": "Guantes De Boxeo Everlast Pro Style Elite. El revolucionario diseño de una pieza optimiza la colocación del puño y promueve el rango natural de movimiento. Construido con tecnología de espuma de celda cerrada para la protección de las manos y el cierre de agarre para una mayor potencia de ajuste. La palma de malla Evercool ™ aumenta la ventilación. La muñeca en forma de reloj de arena con relleno reforzado Evershield ™ estabiliza la mano y la muñeca, brindando un ajuste de apoyo, cómodo y verdaderamente seguro. Cuero sintético premium.",
+    "precio": 9800,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Everlast",
+    "imagen": [
+      "9-guantesBox-1.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 10,
+    "nombre": "Pantalón Short de Boxeo Venum",
+    "descripcion": "Short de Boxeo Venum Elite. 100% Malla de Poliéster en las aperturas laterales para excelente respirabilidad. Cinturón elástico mayor a 58 cm (con espacio para coquilla). Logotipo bordado al frente y en la parte trasera. Logotipo Venum en los cordones.Logotipo Venum en los tramos de malla laterales. Disponible en Blanco y Negro ó Rojo y Negro",
+    "precio": 5500,
+    "descuento": 10,
+    "talle": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": [
+      "Blanco",
+      "Rojo"
+    ],
+    "marca": "Venum",
+    "imagen": [
+      "10-shortBox-1.jpg",
+      "10-shortBox-2.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 11,
+    "nombre": "Pantalón Short de Boxeo Metal",
+    "descripcion": "Short de Boxeo Metal Boxe. Fabricado en satén de alta calidad, con un cinturón ancho para un soporte excepcional y un corte corto.",
+    "precio": 3500,
+    "descuento": 5,
+    "talle": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": [
+      "Negro"
+    ],
+    "marca": "Metal",
+    "imagen": [
+      "11-shortBox-1.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 12,
+    "nombre": "Protector Bucal Simple",
+    "descripcion": "Protector Bucal Simple Proyec. Fabricados de silicona de primera calidad. Termo moldeables (se amoldan a la forma de cada dentadura). Posee contornos anatómicos para evitar molestias en las encías. Transparente",
+    "precio": 150,
+    "descuento": 0,
+    "talle": [
+      "1",
+      "2"
+    ],
+    "color": [],
+    "marca": "Metal",
+    "imagen": [
+      "12-bucalSimple-1.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai",
+      "TaeKwon-Do"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 13,
+    "nombre": "Protector Bucal Doble",
+    "descripcion": "Protector Bucal Doble Procer. Se utilizan para la protección de la boca y la inmovilización de la articulación temporomandibular en la practica de boxeo, hockey, rugby y artes marciales. Su molde está pensado para que una vez tomada la forma del maxilar superior, la distribución del material sea uniforme y su calce sea confortable al uso intensivo. Talle único. Transparente",
+    "precio": 350,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Procer",
+    "imagen": [
+      "13-bucalDoble-1.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai",
+      "TaeKwon-Do"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 14,
+    "nombre": "Cabezal de Boxeo Everlast",
+    "descripcion": "Cabezal de Boxeo Everlast abierto con protector de pómulos. Especialmente diseñado para el entrenamiento y el sparring. Absorbe la transpiración e impide el deslizamiento. Acolchado de espuma de alta calidad. Barbilla abierta para una respiración más fluida. Tira de velcro para una sujeción perfecta",
+    "precio": 7200,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "Everlast",
+    "imagen": [
+      "14-cascoBox-1.jpg",
+      "14-cascoBox-2.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 15,
+    "nombre": "Inguinal de Boxeo Everlast",
+    "descripcion": "Inguinal de Boxeo Everlast Safemax. La tecnología FOAM C3 está diseñada con una mayor amortiguación, apoyo y dispersión para proteger a la ingle, cadera y los riñones. Cuero de primera calidad que asegura la máxima durabilidad y funcionalidad. Tecnología EVERDRI ™ que absorbe y optimiza su comodidad y repele la excesiva humedad durante el entrenamiento. Disponible con gancho ajustable (HOOP & LOOP) y cierre de lazo trasero de encaje (LACED) para la colocación segura durante el entrenamiento.",
+    "precio": 4800,
+    "descuento": 10,
+    "talle": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": [],
+    "marca": "Everlast",
+    "imagen": [
+      "15-inguinalBox-1.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 16,
+    "nombre": "Vendas Elásticas Proyec 4m",
+    "descripcion": "Vendas con abrojo y agarre de dedo pulgar. Aptas para Boxeo, Kick Boxing, Muay Thai, Full Contact, TaeKwon-Do, MMA. Largo: 4 m. Ancho: 5 cm. Super flexibles e Higiénicas. Permite vendar manos, muñeca, nidullos y dedos.Material: Algodon Elastizado",
+    "precio": 600,
+    "descuento": 0,
+    "talle": [],
+    "color": [
+      "Negro",
+      "Rojo",
+      "Azul"
+    ],
+    "marca": "Proyec",
+    "imagen": [
+      "16-vendas-1.jpg",
+      "16-vendas-2.jpg",
+      "16-vendas-3.jpg",
+      "16-vendas-4.jpg"
+    ],
+    "categoria": [
+      "Boxeo",
+      "KickBoxing/MuayThai",
+      "TaeKwon-Do"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 17,
+    "nombre": "Anillas de Madera Gonex",
+    "descripcion": "Las anillas de gimnasia Gonex están hechas de madera de 3,2 cm de grosor, más duraderos y seguros que los anillos de plástico. Mosquetón de instalación rápida: Gonex Quick Carabiner está diseñado para un uso rápido y fácil. No hay necesidad de molestarse con pasos tediosos. El mosquetón de instalación rápida te permite cambiar la longitud de la correa resistente en dos segundos. Correas de doble capa seguras con impresión digital: 1.37 pulgadas x 2.5 m doble de poliéster de alta resistencia están impresas con números arábigos para un ajuste de longitud de la correa sin problemas. No es necesario ajustar la longitud con los ojos. No es necesario ajustar repetidamente. Puedes ajustar ambas correas a la misma altura muy fácil y rápidamente. ",
+    "precio": 6500,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "Gonex",
+    "imagen": [
+      "17-anillas-1.jpg",
+      "17-anillas-2.jpg",
+      "17-anillas-3.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 18,
+    "nombre": "Barra de Pared para Dominadas",
+    "descripcion": "Ancho: 120 cm. Alto Anclaje: 50 cm. Profundidad: 56 cm.Grips antideslizantes. Material: Hierro Reforzado pintado. Soporta 150kg. Peso del producto: 5 KG. Es apta para la intemperie. Trae tornillos o fisher de 8mm",
+    "precio": 3200,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Forja",
+    "imagen": [
+      "18-barra-1.jpg",
+      "18-barra-2.jpg",
+      "18-barra-3.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 19,
+    "nombre": "Cajón de Salto de Madera",
+    "descripcion": "Cajón de salto con 3 alturas diferentes: 50cm x 60cm x 70cm. La caja tiene agarres laterales para fácil traslado. Realizado en multilaminado de 18 mm de espesor. Esta lijado en todas superficies estampado y teñido. Los tornillos están masillados para un mejor terminación. Todos los bordes lijados con el fin de evitar que sean filosos.",
+    "precio": 6500,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "Master Box",
+    "imagen": [
+      "19-cajonSalto-1.jpg",
+      "19-cajonSaltos-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 20,
+    "nombre": "Chaleco de Sobrecarga 20 Kg",
+    "descripcion": "Chaleco para entrenamiento con sobrecarga. Sistema de ajuste con doble abrojo. Confeccionado en tela cordura importada antidesgarro. Anillas de acero frontales y traceras para adicionar peso o elasticos. Hombros acolchonados para mayor comodidad. Bolsas con peso de polietileno resistente incluidas. Cierre reforzado. Talle único.",
+    "precio": 6400,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "JC Sports",
+    "imagen": [
+      "20-chaleco20kg-1.jpg",
+      "20-chaleco20kgs-2.jpg",
+      "20-chaleco20kgs-3.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 21,
+    "nombre": "Corebag 20Kg",
+    "descripcion": "Bolso de arena para entrenamiento funcional y crossfit. Corebags reforzados con 6 agarres. ATENCION: Calidad Premium, super reforzados anti desgarro. MEDIDAS: 46cm de largo, 22cm de ancho, 22cm de alto.",
+    "precio": 2500,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "RWW",
+    "imagen": [
+      "21-corebag-1.jpg",
+      "21-corebags-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 22,
+    "nombre": "Medicine Ball 10kg",
+    "descripcion": "Pelota de lona de 35cm de diámetro rellena con trapo compactado y cargas que le permiten dar con el peso indicado. Costuras con hilo de poliéster resistente a las tracciones e impactos. Con cierre reforzado en cara frontal. Apta para su uso intensivo profesional.",
+    "precio": 2400,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "Sonnos",
+    "imagen": [
+      "22-mBall-1.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 23,
+    "nombre": "Rueda Doble para Abdominales Ranbak",
+    "descripcion": "Ruedas fabricadas en PVC reforzado para altas exigencias. Mangos de goma para mejor sujeción. ",
+    "precio": 750,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Ranbak",
+    "imagen": [
+      "23-ruedaAb-1.jpg",
+      "23-ruedaAb-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 24,
+    "nombre": "Soga Crossfit 9m x 50mm",
+    "descripcion": "Soga para ondulaciones. Extremos termosellados  plastificados para mejor agarre y evitar quemaduras con el roce. Medidas: 9 mts de largo, 50 mm de diametro. Peso: 12,kg",
+    "precio": 10000,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "Fitnesas",
+    "imagen": [
+      "24-sogaCrossfit-1.jpg",
+      "24-sogaCrossfit-2.jpg",
+      "24-sogaCrossfit-3.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 25,
+    "nombre": "Peg Board Escalada Crossfit",
+    "descripcion": "El Peg Board es un equipo de entrenamiento premium para escaladores y atletas ávidos que les permitirá crear su propia configuración desde prácticamente cualquier lugar para permitirles entrenar en su tiempo libre. Los Peg Board se logran utilizando componentes de madera de alta calidad y, por lo tanto, son capaces de soportar hasta 130kg de peso. Esto los hace perfectos para colgar, escalar e incluso sostener ejercicios, y son pálidos como para colocarlos prácticamente en cualquier lugar del hogar, la oficina o el gimnasio. El Peg Board es perfecto para el entrenamiento de la parte superior del cuerpo y el agarre, y cuenta con una serie de agujeros para permitir a los usuarios personalizar cómo lo usan para crear una configuración variada cada vez que comienzan a entrenar.",
+    "precio": 9400,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "Yes4all",
+    "imagen": [
+      "25-pegBoard-1.jpg",
+      "25-pegBoard-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 26,
+    "nombre": "Peso para Tobillo Ajustable 1kg-3kg",
+    "descripcion": "Las pesas de tobillo Xn8 están hechas únicamente de material de nailon Oxford de alta calidad y son algunas de las más resistentes de la industria del fitness. -Con un gran agarre y un diseño estéticamente agradable, las pesas de tobillo Xn8 permanecen firmemente unidas al tobillo y se pueden usar para una amplia gama de ejercicios que incluyen, entre otros, levantamientos muertos, sentadillas y estocadas. Se vende por par. La correa es ajustable, pero no el peso. CADA TAMAÑO SUPERIOR A 1 kg TIENE CINTURONES DOBLES. -Adecuado para la construcción de músculos, la quema de grasa y el más alto nivel de flexibilidad y fuerza central. Las pesas de tobillo Xn8 son una ayuda perfecta para el estado físico general o el entrenamiento más específico en clases de aeróbic y yoga. Agrega intensidad a cualquier entrenamiento, ayudando a fortalecer los bíceps, tríceps, caderas, muslos y pantorrillas mientras corres. -Elija entre pares de 1 kg, 2 kg y 3 kg en diferentes colores.",
+    "precio": 2600,
+    "descuento": 5,
+    "talle": ["1", "2", "3"],
+    "color": ["Negro", "Azul", "Gris", "Naranja", "Violeta", "Rosa", "Rojo", "Celeste"],
+    "marca": "Xn8Sports",
+    "imagen": [
+      "26-tobillerasXn8-1.jpg",
+      "26-tobillerasXn8-2.jpg",
+      "26-tobillerasXn8-3.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 27,
+    "nombre": "Kit X5 Super Bandas Crossfit Calistenia Gym Dominadas Pack",
+    "descripcion": "Set Bandas de Resistencia. Son un elemento clave de entrenamiento para muchas disciplinas y deportes. Son una excelente ayuda para quienes quieren entrenar en casa o para quienes quieren variar sus rutinas. Tonifican brazos, espalda, piernas, glúteos, pecho, núcleo, ABS y aumentan la flexibilidad de tu cuerpo. Composición del Kit: 1 banda Amarilla 0,64 cm de espesor, 1 banda Naranja 1,9 cm de espesor, 1 banda Violeta 2,2 cm de espesor, 1 banda Verde 3,2 cm de espesor y 1 banda Azul 4,2 cm de espesor. Todas las bandas tienen 2,08m de largo y 0,45cm de ancho. Lo que varía en cada banda es el espesor. Sobre este artículo: Bandas de latex de distintas resistencias/intensidades. Ideal para calistenia, crossfit y entrenamiento funcional. Dominadas, asistidas, elongación, trabajos de fuerza, resistencia y potencia. Las bandas elásticas también muestran su excelente rendimiento en terapia física, pérdida de peso, rehabilitación de lesiones, entrenamiento de velocidad y mucho más.",
+    "precio": 6000,
+    "descuento": 10,
+    "talle": [],
+    "color": ["Amarillo", "Naranja", "Violeta", "Verde", "Azul"],
+    "marca": "Quuz",
+    "imagen": [
+      "27-bandaDomElastica-1.jpg",
+      "27-bandaDomElastica-2.jpg",
+      "27-bandaDomElastica-3.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 28,
+    "nombre": "Bandas Elastica Plana Tipo Tiraband Yoga/Fitness",
+    "descripcion": "El tiraband es la herramienta de fitness más sencilla, práctica y útil que se ha inventado. Es una pieza de látex de una longitud aproximada de dos metros y los distintos colores de la banda diferencian las distintas resistencias que ofrecen. Inicialmente utilizado por deportistas de competición, fue pasando a los fisioterapeutas y un poco más tarde llego a los gimnasios. Sus ventajas sobre muchos de los productos, destaca por su portabilidad, progresividad, limpieza, peso y costo. Hasta gimnasias como el pilates se han sumado a esta forma de entender y practicar deporte. No existe especialidad deportiva donde estos elásticos no han encontrado su sitio. Su fácil manejo y lo complicado que resultad hacerse daño mientras se utilizan, han hecho que sea la mejor forma de iniciarse en el mundo de la musculacóon o de la gimnasia para la salud. Venta por unidad. Peso: 70 g; Medida 1,5 Mts Largo x 14,9 cm Ancho.",
+    "precio": 1100,
+    "descuento": 0,
+    "talle": [],
+    "color": ["Amarillo", "Rojo", "Negro", "Verde", "Azul"],
+    "marca": "Quuz",
+    "imagen": [
+      "28-tirabandFitness-1.jpg",
+      "28-tirabandFitness-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 29,
+    "nombre": "Banda Elastica Larga Redonda Con Manija",
+    "descripcion": "1 Banda larga de 1 mts con manija, intensidad intermedia, color rojo, marca SOL FITNESS.",
+    "precio": 2000,
+    "descuento": 5,
+    "talle": [],
+    "color": ["Rojo"],
+    "marca": "SolFitness",
+    "imagen": [
+      "29-bandaRedondaManija-1.jpg",
+      "29-bandaRedondaManija-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 30,
+    "nombre": "Aro En Pvc Caño Redondo 80 Cm",
+    "descripcion": "Aro en pvc caño redondo 80 cm gimnasia rítmica, colores vivos fáciles de localizar.",
+    "precio": 700,
+    "descuento": 5,
+    "talle": [],
+    "color": ["Verde", "Rosa", "Bordó", "Naranja", "Amarillo", "Azul", "Celeste"],
+    "marca": "Loska",
+    "imagen": [
+      "30-arosRedondosPvc-1.jpg",
+      "30-arosRedondosPvc-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 31,
+    "nombre": "Aros Planos Coordinacion X 10 Unidades Flexibles Velocidad",
+    "descripcion": "AROS PLANOS DE COORDINACION -SET 10 UNIDADES. Aros plásticos planos. 30 cm de diámetro interno x 35 cm de diámetro externo. Ideal para trabajos de velocidad, coordinación, pliometría, agilidad, potencia, reacción.",
+    "precio": 1500,
+    "descuento": 5,
+    "talle": [],
+    "color": ["Verde", "Azul", "Violeta", "Rojo", "Naranja", "Rosa", "Amarillo"],
+    "marca": "FullFitness",
+    "imagen": [
+      "31-aroPlanoVelocidad-1.jpg",
+      "31-aroPlanoVelocidad-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 32,
+    "nombre": "Kit 12 Conos Entrenamiento Running Gimnasio Futbol",
+    "descripcion": "12 conos entrenamiento 18.5cm NARANJAS. Ideal para todas las prácticas deportivas. Para trabajos de velocidad, coordinación, pliometría, agilidad, potencia, reacción. Material PVC flexible e irrompible.",
+    "precio": 1500,
+    "descuento": 10,
+    "talle": [],
+    "color": [],
+    "marca": "FullFitness",
+    "imagen": [
+      "32-conoVelocidad-1.jpg",
+      "32-conoVelocidad-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 33,
+    "nombre": "Kit 12 Conos Tipo Tortuga Entrenamiento Running Gimnasio Futbol",
+    "descripcion": "12 conos entrenamiento DRB, las medidas son: 20 cm de diámetro. 4 cm de altura. Ideal para todas las prácticas deportivas. Para trabajos de velocidad, coordinación, pliometría, agilidad, potencia, reacción. Material PVC flexible e irrompible.",
+    "precio": 1300,
+    "descuento": 10,
+    "talle": [],
+    "color": ["Verde Claro", "Naranja", "Amarillo", "Verde Oscuro", "Azul", "Blanco", "Rojo"],
+    "marca": "FullFitness",
+    "imagen": [
+      "33-conosTortugaVelocidad-1.jpg",
+      "33-conosTortugaVelocidad-2.jpg",
+      "33-conosTortugaVelocidad-3.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 34,
+    "nombre": "Escalera Coordinacion Entrenamiento Entrenamiento Running Gimnasio Futbol",
+    "descripcion": "La mejor escalera para ejercicios de FORJA!! VER CALIFICACION Escalones RIGIDOS REGULABLES ancho 40 cm ESCALERA DE COORDINACIÓN Y ENTRENAMIENTO CON 10 ESCALONES DE PVC RÍGIDO y REGULABLES, 12 PELDAÑOS. IDEAL PARA COLEGIOS, PROFESORES DE FUTBOL, VARIOS DEPORTES PLEGABLE PARA SU TRASLADO. Especial para trabajos de velocidad, coordinación, pliometría, agilidad, potencia, reacción.",
+    "precio": 1000,
+    "descuento": 5,
+    "talle": [],
+    "color": [],
+    "marca": "FullFitness",
+    "imagen": [
+      "34-escaleraRunningVelocidad-1.jpg",
+      "34-escaleraRunningVelocidad-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 35,
+    "nombre": "Set De Valla X2 Regulable Completo",
+    "descripcion": "Set de valla regulable ideal para coordinación de saltos, agilidad, reacción. Producto: 3 Bastones, 2 Uniones, 2 Bases. Altura x largo 1m x 100 cm, REGULABLE.",
+    "precio": 900,
+    "descuento": 5,
+    "talle": [],
+    "color": [],
+    "marca": "FullFitness",
+    "imagen": [
+      "35-vallaRegulable-1.jpg",
+      "35-vallaRegulable-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 36,
+    "nombre": "Pesa Rusa Fundicion Crossfit Hierro Macizo C",
+    "descripcion": "Pesa Rusa KETTLEBELL DE FUNDICION 2kg - 24kg. ESPECIFICACIONES: -Pesas Rusas, Kettlebell de Fundicion 100% Nacional de Primera Calidad -Excelentes Terminaciones -Sin Rebaba, Ni Poros (NO LASTIMA LA MANO)",
+    "precio": 6900,
+    "descuento": 20,
+    "talle": [],
+    "color": [],
+    "marca": "GYM-MAN",
+    "imagen": [
+      "36-pesaRusaFundicion-1.jpg",
+      "36-pesaRusaFundicion-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": false
+  },
+  {
+    "id": 37,
+    "nombre": "Pesa Rusa Plastico Crossfit",
+    "descripcion": "Pesas rusas confeccionada en plástico, rellena de cal, cemento y arena. 2kg - 14kg. Utilización: Kettlebells (también llamadas pesas rusas) son una gran herramienta de entrenamiento funcional. El entrenamiento con Kettlebells tiende a la integración del músculo y no al aislamiento muscular.",
+    "precio": 4900,
+    "descuento": 0,
+    "talle": [],
+    "color": ["Verde", "Violeta", "Amarillo", "Beige", "Rojo", "Azul", "Naranja", "Negro", "Gris"],
+    "marca": "GYM-MAN",
+    "imagen": [
+      "37-pesaRusaPlastico-1.jpg",
+      "37-pesaRusaPlastico-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 38,
+    "nombre": "Mancuernas Cromadas (PAR) + 20kg Discos",
+    "descripcion": "-2 mancuernas cromadas macizas (2,2 kgs aprox cada mancuerna) -Incluye roscas metálicas -20 kg discos de fundición EN TOTAL (8 discos de 2,5 kg o 4 discos de 5kg)",
+    "precio": 9400,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "GYM-MAN",
+    "imagen": [
+      "38-mancuernaHierroRosca-1.jpg",
+      "38-mancuernaHierroRosca-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 39,
+    "nombre": "Mancuernas Plastico y Antideslizantes (PAR)",
+    "descripcion": "Muy antideslizante y manejable. Atractiva y manejable también adecuada para entrenamiento de Cross Training. Lavable y duradero, revestimiento de plástico y fácil de limpiar. Los pesos se pueden distinguir fácilmente gracias a los diversos colores. Incluye: 1 par de mancuernas de gimnasia con el peso que desees y MODELO A ELECCIÓN. ACORDAR PRECIO SEGUN KG 0,5; 0,75; 1,0; 1,5; 2; 2,5; 3; 4; 5; 6; 8 y 10 kg",
+    "precio": 1500,
+    "descuento": 0,
+    "talle": [],
+    "color": ["Rosa", "Amarillo", "Blanco", "Dorado", "Violeta", "Verde Claro", "Plateado", "Rojo", "Azul", "Verde Oscuro", "Gris", "Negro", "Marrón"],
+    "marca": "C.P.Sports",
+    "imagen": [
+      "39-mancuernaPlastico-1.jpg",
+      "39-mancuernaPlastico-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 40,
+    "nombre": "Discos De Fundicion Para Gym Mancuernas Y Barras",
+    "descripcion": "PRECIO X KILOGRAMO HACEMOS ENVIOS CONSULTA COSTO Y todo lo que necesitas para entrenar en tu casa mancuernas barras bancos etc. Somos solanas cars Podes comprar la cantidad de kilos que necesitas cada unidad es 1 kilo Y pagarlo con tarjeta en cuotas",
+    "precio": 300,
+    "descuento": 0,
+    "talle": [],
+    "color": [],
+    "marca": "Solanas",
+    "imagen": [
+      "40-discosGym-1.jpg",
+      "40-discosGym-2.jpg"
+    ],
+    "categoria": [
+      "Funcional/Cross"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 41,
+    "nombre": "Cinto Faixa Artes Marciales Jiu-Jitsu-Judo",
+    "descripcion": "Somos Fabricantes, consúltanos sobre talles y o colores. CONSULTAR POR TALLES Y COLORES FAIXA CINTO para BJJ Jiu Jitsu 4cm de Ancho Relleno Reforzado 100% Algodon Etiqueta Bordada para mejor calidad. Cantidad de costuras: 8",
+    "precio": 1900,
+    "descuento": 0,
+    "talle": [],
+    "color": ["Blanco", "Negro", "Marrón", "Violeta", "Azul"],
+    "marca": "Umma",
+    "imagen": [
+      "41-cintoFaixaJJ8Cost-1.jpg",
+      "41-cintoFaixaJJ8Cost-2.jpg"
+    ],
+    "categoria": [
+      "Jiu-Jitsu",
+      "Judo"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 42,
+    "nombre": "Kimono Classic Adulto-Niño Jiu-Jitsu",
+    "descripcion": "Talle Equivalencia. Infantiles: M0 - 1.00 a 1.10 de altura; M1 - 1.10 a 1.20 de altura; M2 - 1.20 a 1.30 de altura; M3 - 1.30 a 1.40 de altura. Adultos: A0 - de 1.50 a 1.60 y hasta 60kg; A1 - de 1.60 a 1.70 y hasta 75kg; A2 - de 1.70 a 1.80 y hasta 85kg; A3 - de 1.80 a 1.90 y hasta 90kg; A4 - de 1.90 a 2.00 y hasta 60kg; A5 - de 1.90 a 2.00 y más de 120kg.",
+    "precio": 14800,
+    "descuento": 0,
+    "talle": ["M0", "M1", "M2", "M3", "A0", "A1", "A2", "A3", "A4", "A5"],
+    "color": ["Blanco", "Negro", "Azul"],
+    "marca": "SHIAI",
+    "imagen": [
+      "42-kimonoJJClassic-1.jpg",
+      "42-kimonoJJClassic-2.jpg",
+      "42-kimonoJJClassic-3.jpg"
+    ],
+    "categoria": [
+      "Jiu-Jitsu"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 43,
+    "nombre": "Kimono Hania Adulto-Niño Jiu-Jitsu",
+    "descripcion": "Talle Equivalencia. Infantiles: M0 - 1.00 a 1.10 de altura; M1 - 1.10 a 1.20 de altura; M2 - 1.20 a 1.30 de altura; M3 - 1.30 a 1.40 de altura. Adultos: A0 - de 1.50 a 1.60 y hasta 60kg; A1 - de 1.60 a 1.70 y hasta 75kg; A2 - de 1.70 a 1.80 y hasta 85kg; A3 - de 1.80 a 1.90 y hasta 90kg; A4 - de 1.90 a 2.00 y hasta 60kg; A5 - de 1.90 a 2.00 y más de 120kg.",
+    "precio": 15800,
+    "descuento": 0,
+    "talle": ["M0", "M1", "M2", "M3", "A0", "A1", "A2", "A3", "A4", "A5"],
+    "color": ["Azul", "Negro", "Blanco"],
+    "marca": "SHIAI",
+    "imagen": [
+      "43-kimonoJJHania-1.jpg",
+      "43-kimonoJJHania-2.jpg",
+      "43-kimonoJJHania-3.jpg"
+    ],
+    "categoria": [
+      "Jiu-Jitsu"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 44,
+    "nombre": "Kimono Ultra-Light Adulto-Niño Jiu-Jitsu",
+    "descripcion": "Talle Equivalencia. Infantiles: M0 - 1.00 a 1.10 de altura; M1 - 1.10 a 1.20 de altura; M2 - 1.20 a 1.30 de altura; M3 - 1.30 a 1.40 de altura. Adultos: A0 - de 1.50 a 1.60 y hasta 60kg; A1 - de 1.60 a 1.70 y hasta 75kg; A2 - de 1.70 a 1.80 y hasta 85kg; A3 - de 1.80 a 1.90 y hasta 90kg; A4 - de 1.90 a 2.00 y hasta 60kg; A5 - de 1.90 a 2.00 y más de 120kg.",
+    "precio": 10200,
+    "descuento": 0,
+    "talle": ["M0", "M1", "M2", "M3", "A0", "A1", "A2", "A3", "A4", "A5"],
+    "color": ["Azul", "Blanco"],
+    "marca": "SHIAI",
+    "imagen": [
+      "44-kimonoJJUltraLight-1.jpg",
+      "44-kimonoJJUltraLight-2.jpg"
+    ],
+    "categoria": [
+      "Jiu-Jitsu"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 45,
+    "nombre": "Cinto Faixa Artes Marciales Judo-Jiu-Jitsu",
+    "descripcion": "Somos Fabricantes, consúltanos sobre talles y o colores. CONSULTAR POR TALLES Y COLORES FAIXA CINTO para Judo 5cm de Ancho Relleno Reforzado 100% Algodon Etiqueta Bordada para mejor calidad. Cantidad de costuras: 10",
+    "precio": 2000,
+    "descuento": 0,
+    "talle": [],
+    "color": ["Blanco", "Amarillo", "Naranja", "Verde Oscuro", "Azul", "Marrón", "Negro", "Celeste"],
+    "marca": "SHIAI",
+    "imagen": [
+      "45-cintoFaixaJJ10Cost-1.jpg",
+      "45-cintoFaixaJJ10Cost-2.jpg"
+    ],
+    "categoria": [
+      "Jiu-Jitsu",
+      "Judo"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 46,
+    "nombre": "Judo Gi Tramado Liviano Artes Marciales Judo",
+    "descripcion": "Talle Equivalencia. M0 - 1.00 a 1.10m de altura; M1 - 1.10 a 1.20m de altura; M2 - 1.20 a 1.30m de altura; 1 - 1.35 a 1.45m de altura; 2 - de 1.50 a 1.55m; 3 - de 1.60 a 1.65m; 4 - de 1.70 a 1.75m; 5 - de 1.175 a 1.80m; 6 - de 1.80 a 1.85m; 7 - más de 1.90m.",
+    "precio": 5800,
+    "descuento": 0,
+    "talle": ["M0", "M1", "M2", "1", "2", "3", "4", "5", "6", "7"],
+    "color": ["Blanco", "Azul"],
+    "marca": "SHIAI",
+    "imagen": [
+      "46-judoGiLiviano-1.jpg",
+      "46-judoGiLiviano-2.jpg"
+    ],
+    "categoria": [
+      "Judo"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 47,
+    "nombre": "Judo Gi Tramado Mediano Artes Marciales Judo",
+    "descripcion": "Talle Equivalencia. M0 - 1.00 a 1.10m de altura; M1 - 1.10 a 1.20m de altura; M2 - 1.20 a 1.30m de altura; 1 - 1.35 a 1.45m de altura; 2 - de 1.50 a 1.55m; 3 - de 1.60 a 1.65m; 4 - de 1.70 a 1.75m; 5 - de 1.175 a 1.80m; 6 - de 1.80 a 1.85m; 7 - más de 1.90m.",
+    "precio": 14000,
+    "descuento": 0,
+    "talle": ["M0", "M1", "M2", "1", "2", "3", "4", "5", "6", "7"],
+    "color": ["Blanco", "Azul"],
+    "marca": "SHIAI",
+    "imagen": [
+      "47-judoGiMediano-1.jpg",
+      "47-judoGiMediano-2.jpg"
+    ],
+    "categoria": [
+      "Judo"
+    ],
+    "envioGratis": true
+  },
+  {
+    "id": 48,
+    "nombre": "Judo Gi Tramado Pesado Artes Marciales Judo",
+    "descripcion": "Talle Equivalencia. M0 - 1.00 a 1.10m de altura; M1 - 1.10 a 1.20m de altura; M2 - 1.20 a 1.30m de altura; 1 - 1.35 a 1.45m de altura; 2 - de 1.50 a 1.55m; 3 - de 1.60 a 1.65m; 4 - de 1.70 a 1.75m; 5 - de 1.175 a 1.80m; 6 - de 1.80 a 1.85m; 7 - más de 1.90m.",
+    "precio": 20000,
+    "descuento": 0,
+    "talle": ["M0", "M1", "M2", "1", "2", "3", "4", "5", "6", "7"],
+    "color": ["Blanco", "Azul"],
+    "marca": "SHIAI",
+    "imagen": [
+      "48-judoGiPesado-1.jpg",
+      "48-judoGiPesado-2.jpg"
+    ],
+    "categoria": [
+      "Judo"
+    ],
+    "envioGratis": true
+  }
+]

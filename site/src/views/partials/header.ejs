@@ -1,0 +1,150 @@
+<header>
+    <div class="header-container">
+        <div class="banner">
+            <img class="banner_dragon" src="/img/design/banner.png" alt="Banner">
+            <a href="/"><img src="/img/design/logo.png" alt="" class="logo"></a>
+        </div>
+    </div>
+    <nav>
+        <div class="nav">
+            <button class="home">
+                <a href="/">
+                    <i class="fas fa-home"></i>
+                </a>
+            </button>
+            <input class="burger" name="open-close" type="radio" id="categorias">
+            <label for="categorias">
+                <i class="fas fa-bars" id="burgerMenu"></i>
+            </label>
+            <form action="/products/search" method="GET" id="searchForm">
+                <input  type="text" name="search" id="search" placeholder="Buscar marcas, productos y más">
+                <button class="search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        
+
+            <% if (locals.usuarioLogueado && locals.usuarioLogueado.admin == 1) { %>
+                <li class="admin_desktop_link">
+                    <a href="/admin">
+                        Admin <i class="fas fa-user-lock"></i>
+                    </a>
+                </li>
+            <% } %>
+            
+            <% if (locals.usuarioLogueado) { %>
+                <div class="user_desktoplinks">
+                    <img class="avatar_userdesktop" src="/img/users/<%= locals.usuarioLogueado.imagen  %>" alt="Imagen de perfil">
+                    <li class="desktop_userlink_profile"><a href="/user/userProfile/<%= locals.usuarioLogueado.id %> "><%= locals.usuarioLogueado.nombre %> <i class=" iconuser fas fa-user"></i></a></li>
+                    <li class="desktop_userlink_logout"><a href="/user/cerrarSesion">Cerrar sesión <i class="fas fa-sign-out-alt"></i></a></li>
+                </div>
+            <% } else { %>
+                <button class="user">
+                    <a href="/user/login">Iniciar sesión</a>
+                </button>
+                
+                <button class="user">
+                    <a href="/user/register">Registrate</a>
+                </button>
+
+                <% } %>
+                <button class="cart">
+                    <a href="/user/cart"><i class="fas fa-shopping-cart"></i></a>
+                </button>
+                
+                <input class="close" type="radio" name="open-close" id="close">
+        </div>
+        <div class="menu">
+            <label for="close"><i class="fas fa-times" id="close"></i></label>
+            <% if (!locals.usuarioLogueado) { %>
+                <ul class="user">
+                    <li><a href="/user/login">Iniciar sesión</a></li>
+                    <li><a href="/user/register">Registrarse</a></li>
+                </ul>
+            <% } %>
+            <% if (locals.usuarioLogueado) { %>
+                <ul class="user_profile_mobile">
+                    <img class="avatar_usermobile" src="/img/users/<%= locals.usuarioLogueado.imagen  %>" alt="Imagen de perfil">
+                    <div class="burger_userlinks">
+                        <li class="burger_userlink_profile"><a href="/user/userProfile/<%= usuarioLogueado.id %> "><%= usuarioLogueado.nombre %> <i class=" iconuser fas fa-user"></i></a></li>
+                        <% if (locals.usuarioLogueado && locals.usuarioLogueado.admin == 1) { %>
+                        <li class="burger_userlink_admin"><a href="/admin">Admin <i class="fas fa-user-lock"></i></a></li>
+                            <% } %>
+                        <li class="burger_userlink_logout"><a href="/user/cerrarSesion">Cerrar sesión <i class="fas fa-sign-out-alt"></i></a></li>
+                    </div>
+                </ul>
+            <% } %>
+            <ul class="listaCategorias">
+                <li class="categorias" id="taekwondo">
+                    <span >TaeKwon-Do</span>
+                    <div class="submenu" id="submenu0">
+                        <a href="/categories/TaeKwon-Do" class="submenu0">Todos los productos</a>
+                        <a href="" class="submenu0">Sub1</a>
+                        <a href="" class="submenu0">Sub2</a>
+                        <a href="" class="submenu0">Sub3</a>
+                        <a href="" class="submenu0">Sub4</a>
+                    </div>
+                </li>
+
+                <li class="categorias" id="boxeo">
+                    <span >Boxeo</span>
+                    <div class="submenu" id="submenu1">
+                        <a href="/categories/Boxeo" class="submenu1 ">Todos los productos</a>
+                        <a href="" class="submenu1 ">Sub1</a>
+                        <a href="" class="submenu1 ">Sub2</a>
+                        <a href="" class="submenu1 ">Sub3</a>
+                        <a href="" class="submenu1 ">Sub4</a>
+                    </div>
+                </li>
+
+                <li class="categorias" id="kick-muay">
+                    <span>KickBoxing/MuayThai</span>
+                    <div class="submenu" id="submenu2">
+                        <a href="/categories/Kick" class="submenu2">Todos los productos</a>
+                        <a href="" class="submenu2">Sub1</a>
+                        <a href="" class="submenu2">Sub2</a>
+                        <a href="" class="submenu2">Sub3</a>
+                        <a href="" class="submenu2">Sub4</a>
+                    </div>
+                </li>
+
+                <li class="categorias" id="judo">
+                    <span>Judo</span>
+                    <div class="submenu" id="submenu3">
+                        <a href="/categories/Judo" class="submenu3">Todos los productos</a>
+                        <a href="" class="submenu3">Sub1</a>
+                        <a href="" class="submenu3">Sub2</a>
+                        <a href="" class="submenu3">Sub3</a>
+                        <a href="" class="submenu3">Sub4</a>
+                    </div>
+                </li>
+
+                <li class="categorias" id="jiujitsu">
+                    <span>Jiu-Jitsu</span>
+                    <div class="submenu" id="submenu4">
+                        <a href="/categories/Jiu-Jitsu" class="submenu4">Todos los productos</a>
+                        <a href="" class="submenu4">Sub1</a>
+                        <a href="" class="submenu4">Sub2</a>
+                        <a href="" class="submenu4">Sub3</a>
+                        <a href="" class="submenu4">Sub4</a>
+                    </div>
+                </li>
+
+                <li class="categorias" id="entrenamiento">
+                    <span>Entrenamiento</span>
+                    <div class="submenu" id="submenu5">
+                        <a href="/categories/Entrenamiento" class="submenu5">Todos los productos</a>
+                        <a href="" class="submenu5">Sub1</a>
+                        <a href="" class="submenu5">Sub2</a>
+                        <a href="" class="submenu5">Sub3</a>
+                        <a href="" class="submenu5">Sub4</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+</header>

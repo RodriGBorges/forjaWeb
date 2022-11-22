@@ -1,0 +1,192 @@
+/* body{
+    background: linear-gradient(0deg, #020202 5.86%, #053742 66.81%);
+} */
+main.login{
+    background: linear-gradient(0deg, #020202 5.86%, #053742 66.81%);
+    overflow-x: hidden;
+    /* height: 100vh; */
+    min-height: 585px;
+}
+
+.login p.registro_exitoso {
+    text-align: start;
+    background-color: rgba(60, 255, 46, .5);
+    padding: 5px;
+
+}
+
+main.login section {
+    background-color: var(--white);
+    width: 80%;
+    max-width: 400px;
+    margin: 80px auto ;
+    text-align: center;
+    border: solid 1px var(--lightBlue);
+    border-radius: 5px;
+
+    animation: respiracion_login 3s linear alternate infinite;
+    animation-delay: 3s;
+
+}
+
+main.login section h2{
+    padding: 10px;
+}
+
+main.login section samp{
+    display: block;
+    padding: 10px;
+}
+
+main.login section a{
+    padding: 10px;
+    color: var(--lightBlue);
+}
+
+main.login section form{
+    padding: 10px;
+}
+
+.login section form #label {
+    text-align: start;
+}
+
+main.login section form div .inputLogin {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 0 60px 0 10px;
+    border: 2px solid var(--lightBlue);
+    transition: .3s ease all;
+    height: 40px;
+}
+
+main.login section form div .inputLogin:focus {
+    outline: none;
+    border: 3px solid var(--lightBlue);
+    box-shadow: 3px 0px 30px rgba(161, 161, 161, 0.4);
+}
+
+main.login section form div.grupo_input {
+    width: 100%;
+    position: relative;
+}
+
+main.login section form div i.error, main.login section form div i.check {
+    position: absolute;
+    bottom: 21px;
+    right: 45px;
+    display: none;
+}
+
+main.login section form div i.error {
+    color: red;
+}
+
+main.login section form div i.check {
+    color: green;
+}
+
+main.login section form div.grupo_input i.ojitoDes, main.login section form div.grupo_input i.ojitoAct {
+    position: absolute;
+    bottom: 21px;
+    right: 10px;
+    cursor: pointer;
+}
+
+main.login section form div.grupo_input i.ojitoDes {
+    display: none;
+}
+
+main.login section h5{
+    padding: 10px;
+}
+
+main.login section h5 a{
+    color: rgb(110, 110, 110);
+}
+
+main.login section button{
+    margin: 15px;
+    padding: 5px;
+    background-color: var(--lightBlue);
+    border-radius: 5px;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+
+main.login section button a{
+    color: var(--white);
+}
+
+main.login small.errors{
+    display: block;
+    color: crimson;
+}
+
+main.login small.smallsLoginFront{
+    color: crimson;
+}
+
+main.login #send:hover {
+    box-shadow: 0px 1px 5px rgb(0 0 0);
+}
+
+@media(min-width: 425px){
+
+    main.login section h2{
+        font-size: 1.8rem;
+    }
+
+}
+
+@media(min-width: 768px){
+    main.login section samp{
+        display: inline-block;
+    }
+
+    main.login section button:hover{
+        background-color: #2dbdbd;
+    }
+}
+
+@media(min-width: 1024px){
+    
+    
+    main.login section form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main.login section button{
+        width: 130px;
+        
+    }
+
+    main.login section button:hover{
+        background-color: #2dbdbd;
+    }
+}
+
+@keyframes respiracion_login {
+    0% {
+        box-shadow: 0px 0px 10px 10px rgba(42,210,210,0);
+    }
+
+    25% {
+        box-shadow: 0px 0px 10px 5px rgba(42,210,210,0.25);
+    }
+
+    50% {
+        box-shadow: 0px 0px 10px 5px rgba(42,210,210,0.50);
+    }
+
+    75% {
+        box-shadow: 0px 0px 10px 5px rgba(42,210,210,0.75);
+    }
+
+    100% {
+        box-shadow: 0px 0px 10px 5px rgba(42,210,210,1);
+    }
+}
