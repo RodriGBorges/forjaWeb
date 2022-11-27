@@ -1,11 +1,13 @@
+- Repositorio original -> https://github.com/davaloslm/grupo_10_forja
+
 # Grupo_10_Forja
 
 # **Integrantes:**
 
-### Leonardo Dávalos
-- 27 años. Profesor suplente de Inglés en Nivel Secundario en DGCyE, Programador Java (UTN), estudiante de Programación Web Fullstack en Digital House y Fundación Formar.
 ### Rodrigo Garayalde Borges
 - 22 años. Técnico electromecánico, estudiante de Programación Web Fullstack en Digital House y Fundación Formar.
+### Leonardo Dávalos
+- 27 años. Profesor suplente de Inglés en Nivel Secundario en DGCyE, Programador Java (UTN), estudiante de Programación Web Fullstack en Digital House y Fundación Formar.
 ###  Vladimir Morales  
 - 20 años. Estudiante de Programación Web Fullstack en Digital House y Fundación Formar .
 ---
